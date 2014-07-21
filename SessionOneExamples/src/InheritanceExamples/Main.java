@@ -2,6 +2,18 @@ package InheritanceExamples;
 
 public class Main {
 
+	
+	/* Session One Examples 7/20/14
+	 * 
+	 * Before running this Main file to see the output, write down what you 
+	 * think the output would be. Compare your answers afterwards and email 
+	 * me if you have any questions. 
+	 * 
+	 * Notice that there are some methods in TwoDoorCar, Car, etc that I did 
+	 * not use in this Main.java file. Feel free to experiment with all of the
+	 * methods I provided. 
+	 * 
+	 */
 
 	public static void main(String[] args) {
 		
@@ -51,6 +63,7 @@ public class Main {
 		// PART ONE EXAMPLES
 		System.out.println("___PART ONE___");
 		
+		//what is the output from this for loop?
 		for (int i = 0; i < vehArray.length; i++) {
 			vehArray[i].printColor();
 			vehArray[i].printMileage();
@@ -63,6 +76,7 @@ public class Main {
 		// PART TWO EXAMPLES 
 		System.out.println("___PART TWO___");
 		
+		
 		b.crashInto(c);
 		b.crashInto(f);
 		a.crashInto(d);
@@ -71,21 +85,17 @@ public class Main {
 	
 		
 		
+		// What is the output from this for loop?
 		for (int i = 0; i < vehArray.length; i++) {
 			vehArray[i].printDamage();
 			
 		}
-		
-		
-		//PART FOUR 
-		System.out.println("__PART THREE__");
-		
-		
+				
 		
 		
 		//PART THREE (Questions)
 		
-		/* Questions to think about: */
+		/*Try to answer these */
 		/* 1) Why won't c.printColor(5) compile? 
 		 * 2) Will c.printColor(5.0) compile? 
 		 * 3) Will a.printManual() compile? 
@@ -93,7 +103,14 @@ public class Main {
 		 * 5) Will b.printManual() compile?
 		 * 6) Of all of the Vehicle objects above (a,b,c,d,e,f), 
 		 *    only object 'a' has a field called "privateVar". 
-		 *    Why is this?*/
+		 *    Why is this?
+		 * 7) In the Van, Car, and TwoDoorCar files, which methods are 
+		 *    considered to be overriding another method?
+		 * 8) Can you find any methods in this package that are 
+		 *    overloading?*/
+		
+		
+		
 		
 		
 
